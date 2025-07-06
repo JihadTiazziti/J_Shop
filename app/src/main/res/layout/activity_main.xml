@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/text_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To be the Best you need the Best"
+        android:textColor="#008080"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <ImageView
+        android:id="@+id/image_illustration"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/welcome_image"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="illustration" />
+
+
+    <Button
+        android:id="@+id/button_lets_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let’s Go"
+        android:backgroundTint="#D19C92"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:elevation="4dp"
+        android:padding="12dp"/>
+
+
+    <TextView
+        android:id="@+id/text_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ? Sign In"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+</LinearLayout>

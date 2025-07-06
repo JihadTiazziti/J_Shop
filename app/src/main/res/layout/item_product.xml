@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical"
+
+    android:layout_margin="6dp">
+
+<ImageView
+android:id="@+id/imgProduct"
+android:layout_width="match_parent"
+android:layout_height="140dp"
+android:scaleType="centerCrop"
+android:src="@drawable/joystick" />
+
+<TextView
+android:id="@+id/tvProductName"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Joystick"
+android:textStyle="bold"
+android:textColor="#0D2B3E"
+android:textSize="16sp"
+android:layout_marginTop="8dp" />
+
+<TextView
+android:id="@+id/tvProductPrice"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="€0.00"
+android:textColor="#D49C8B"
+android:textSize="14sp"
+android:textStyle="bold" />
+
+<Button
+android:id="@+id/btnAddToCart"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Ajouter au panier"
+android:layout_marginTop="8dp"
+    android:backgroundTint="#D19C92"/>
+    </LinearLayout>

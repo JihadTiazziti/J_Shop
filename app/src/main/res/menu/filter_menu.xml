@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter_price_asc"
+        android:title="Prix croissant" />
+    <item
+        android:id="@+id/filter_price_desc"
+        android:title="Prix décroissant" />
+    <item
+        android:id="@+id/filter_name_asc"
+        android:title="Nom A-Z" />
+    <item
+        android:id="@+id/filter_name_desc"
+        android:title="Nom Z-A" />
+</menu>
